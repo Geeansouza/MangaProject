@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+.tipo {
+    align-items: center;
+	justify-content: center;
+    width: 100%;
+    height: 40px;
+    font-family: 'Merienda One', cursive;
+    color: black;
+    
+}
+.checkbtn {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    align-content: flex-start;
+    margin-left: 30px;
+	font-size: 30px;
+	color: white;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+    list-style: none;
+}
+#check {
+	display: none;
+}
+	#dropdown-menu .item .tipo{
+		font-size: 16px;
+       
+	}
+	.checkbtn {
+		display: block;
+	}
+	#dropdown-menu{
+    	position: fixed;
+        width: 100px;
+        height: 160px;
+		background: rgba(87, 100, 144, 0.47);
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+        
+       
+	}
+	nav #dropdown-menu .item{
+		display: block;
+	
+        
+        
+	}
+	nav #dropdown-menu .item .tipo {
+		font-size: 15px;
+        display: flex;
+        
+    
+	}
+    .tipo:hover, #dropdown-menu .item .tipo.active {
+        border: solid 1px black;
+        
+        
+}
+	.tipo:hover, .tipo.active {
+		background: none;
+		color: #3EB195;
+        background-color: #576490;
+        
+        
+        
+        
+        
+	}
+	#check:checked ~ #dropdown-menu {
+		left: 0;
+	
+}

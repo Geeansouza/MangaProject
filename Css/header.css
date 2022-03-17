@@ -1,0 +1,21 @@
+header {
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: hsla(226, 25%, 45%, 1);
+
+    background: linear-gradient(90deg, hsla(226, 25%, 45%, 1) 10%, hsla(165, 48%, 47%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(226, 25%, 45%, 1) 10%, hsla(165, 48%, 47%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(226, 25%, 45%, 1) 10%, hsla(165, 48%, 47%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#576490", endColorstr="#3EB195", GradientType=1 );
+    
+}
+input{
+    display: flex;
+    align-items: center;
+    margin-left: 1300px;
+}
