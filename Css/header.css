@@ -4,18 +4,41 @@ header {
     left: 0px;
     top: 0px;
     background: hsla(226, 25%, 45%, 1);
-
-    background: linear-gradient(90deg, hsla(226, 25%, 45%, 1) 10%, hsla(165, 48%, 47%, 1) 100%);
-    
-    background: -moz-linear-gradient(90deg, hsla(226, 25%, 45%, 1) 10%, hsla(165, 48%, 47%, 1) 100%);
-    
-    background: -webkit-linear-gradient(90deg, hsla(226, 25%, 45%, 1) 10%, hsla(165, 48%, 47%, 1) 100%);
-    
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#576490", endColorstr="#3EB195", GradientType=1 );
-    
 }
-input{
+header{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-left: 1300px;
 }
+
+
+
+#cxTexto{
+    display: flex;
+    width: 200px;
+    height: 25px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 40px;
+    
+    
+    
+}
+#texto{
+    
+    background: rgba(255, 255, 255, 0.73);
+    border-radius: 60px;
+    border-color: rgba(255, 255, 255, 0.73);
+    
+}
+#imgSearch{
+    
+    margin-left: 20px;
+    
+}
+/* #logo{
+    
+    margin-right: 100%;
+
+} */
