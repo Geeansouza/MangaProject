@@ -1,0 +1,19 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+
+}
+#box{
+    height: 50vh;
+    width: 100vw;
+    background-color: #cdcdcd;
+}
+#boxpart1{
+	background-color: blue;
+}
+#boxpart2{
+	background-color: brown;
+}

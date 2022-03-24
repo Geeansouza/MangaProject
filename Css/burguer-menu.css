@@ -16,7 +16,7 @@
 	cursor: pointer;
 	display: none;
     list-style: none;
-	margin-top: -1vw;
+	/* margin-top: -1vw; */
 }
 #check {
 	display: none;
@@ -29,7 +29,7 @@
 		display: block;
 	}
 	#dropdown-menu{
-    	position: fixed;
+    	position: absolute;
         width: 100px;
         height: 160px;
 		background: rgba(87, 100, 144, 0.80);

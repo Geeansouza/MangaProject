@@ -19,10 +19,16 @@ const loadImages = ( images, container ) => {
     })
 }
 ////////////////////////////////////////////////////////////
-// const ligarAutomatico = () =>{
-//     if (interval == null) {
-//         interval = setInterval(() => next(items[0]), 1000);
-//         automatico.textContent = "Parar";
+let interval;
+
+const ligarAutomatico = () =>{
+    if (interval) clearInterval(interval);
+
+    interval = setInterval(() => next(), 5000);
+}
+
+ligarAutomatico();
+
 ////////////////////////////////////////////////////////////
 
 loadImages( images, containerItems );
@@ -30,15 +36,17 @@ loadImages( images, containerItems );
 let items = document.querySelectorAll('.itemBanner');
 
 const previous = () => {
-    containerItems.appendChild(items[0]);
-    items = document.querySelectorAll('.itemBanner');
-}
-
-const next = () => {
     const lastItem = items[items.length - 1];
     containerItems.insertBefore( lastItem, items[0] );
     items = document.querySelectorAll('.itemBanner');
 }
 
-document.querySelector('#previous').addEventListener('click', next);
-document.querySelector('#next').addEventListener('click', previous);
+
+
+const next = () => {
+    containerItems.appendChild(items[0]);
+    items = document.querySelectorAll('.itemBanner');
+}
+
+document.querySelector('#previous').addEventListener('click', previous);
+document.querySelector('#next').addEventListener('click', next);
