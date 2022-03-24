@@ -1,0 +1,48 @@
+.card-container{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    /* background-color: blueviolet; */
+   
+}
+#textCard{
+    /* background-color: aqua; */
+    height: auto;
+    width: 80vw;
+    font-family: 'Merienda One', cursive;
+    color: #576490;
+    font-size: 20px;
+}
+.cardStyle{
+    width: 80vw;
+    height:30vh;
+    background-color: #9c9c9c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction:row;
+}
+.card-image{
+    max-width: auto;
+    max-height: 30vh;
+}
+.card{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.infoCard{
+    margin: auto;
+    font-family: 'Merienda One', cursive;
+}
+#price{
+    color: #561A1A;   
+}
+#text{
+    color: #232252;
+    font-size: 20px;
+}

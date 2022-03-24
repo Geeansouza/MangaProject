@@ -1,0 +1,74 @@
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 45vh;
+}
+:root{
+    --width:80vw;
+    --height: 40vh;
+}
+.container-slide{
+    display: flex;
+    justify-content: space-between;
+    width:var(--width);
+    height:var(--height);
+    background-color: black;
+}
+
+.container-items {
+    position: absolute;
+    display: flex;
+    width:var(--width);
+    height:var(--height);
+    
+    overflow: hidden;
+}
+
+.itemBanner {
+    width: 80vw;
+    height: 50vh;
+    transition: all 0.6s;
+}
+.itemBanner:first-child{
+    margin-left: -100%;
+}
+
+.itemBanner img {
+    width:var(--width);
+    height:var(--height);
+    cursor: pointer;
+    
+}
+
+.action-button{
+    font: bold 80px sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: #00000000;
+    user-select: none;
+    margin: 20px;
+}
+.action-button{
+    color: #576490;
+
+    cursor: pointer;
+    transition: all 1s;
+}
+#division{
+    display: flex;
+    justify-content: center;
+    width:100vw;
+    height:1vh;
+    
+}
+#divisionBar{
+    width:90vw;
+    height:1vh;
+    background-color: rgb(158, 164, 185);
+    border-radius: 1vw;
+    box-shadow: 0vw 1vh 1vh rgba(255, 255, 255, 0.25);
+}
