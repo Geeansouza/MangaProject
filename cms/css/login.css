@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+    box-sizing: border-box;
+    font-family: 'Merienda One', cursive;
+
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#container{
+    height: 60vh;
+    width: 60vw;
+    background: hsla(350, 73%, 44%, 1);
+
+    background: linear-gradient(90deg, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C11E38", endColorstr="#220B34", GradientType=1 );
+}
+:root{
+    --width:60vw;
+    --height:20vh;
+}
+#titulo{
+    width:var(--width);
+    height:var(--height);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    
+}
+.cmsTexto{
+    
+    font-size: 60px;
+    
+}
+.tituloManga{
+    font-size: 40px;
+    
+}
+#login{
+    width:var(--width);
+    height:var(--height);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.containerLogin1{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.containerLogin2{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#textPassword{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+#senhaPassword{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+}
+.usuarioLogin{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: white;
+}
+.senhaLogin{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+}
+#button{
+    width:var(--width);
+    height:var(--height);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#buttonConfirm{
+    width: 150px;
+    height: 40px;
+    margin-right:2vw;
+    background-color: white;
+    border: solid, 2px, black;
+    font-size: 2vh;
+}

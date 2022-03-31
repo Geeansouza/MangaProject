@@ -1,19 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 * {
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
 	list-style: none;
-	box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Merienda One', cursive;
 
 }
-#box{
-    height: 50vh;
+main{
     width: 100vw;
-    background-color: #cdcdcd;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
 }
-#boxpart1{
+:root{
+
+    --filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C11E38", endColorstr="#220B34", GradientType=1 );
+}                                                                                                                                      
+#container{
+    height: 95vh;
+    width: 80vw;
+    background: hsla(350, 73%, 44%, 1);
+
+    background: linear-gradient(90deg, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C11E38", endColorstr="#220B34", GradientType=1 );
+
+}
+.boxpart1{
 	background-color: blue;
+	height: 25vh;
+	width: 80vw;
+	display: flex;
+	flex-direction: row;
+	border-bottom: solid 10px white;
 }
-#boxpart2{
+:root{
+	--headerWidth:40vw;
+	--headerHeight:15vh;
+}
+.header1{
+	width:var(--headerWidth);
+    height:var(--headerHeight);
+	background-color:orange;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+	text-align: end;
+	
+}
+#tituloCms{
+	margin-left: 30px;
+	font-size: 30px;
+}
+#subtituloCms{
+	margin-left: 30px;
+	font-size: 20px;
+
+}
+.header2{
+	width:var(--headerWidth);
+    height:var(--headerHeight);
+	background-color: paleturquoise;
+}
+
+.boxpart2{
 	background-color: brown;
+	
 }
