@@ -76,11 +76,10 @@ function updateCategoria($dadosCategoria){
 
     $conexao = conexaoMysql();
     $sql = "update tblcategorias set
-    categoria       =   '".$dadosCategoria['categoria']."',
+    categoria       =   '".$dadosCategoria['categoria']."'
     where idcategorias = ".$dadosCategoria['idcategorias'];
 
-    echo($sql);
-    die;
+    
      //executa o script no BD
         //Validação para verificar  se o script sql esta correto
         if(mysqli_query($conexao, $sql))
