@@ -166,7 +166,7 @@
                     if(is_bool($resposta)){
                         if($resposta){
                             echo("<script>
-                                    alert('Registro excluido com sucesso!');
+                                    alert('sucesso!');
                                     window.location.href = 'dashUsuarios.php'</script>");
                         }
                     }else if (is_array($resposta)){
